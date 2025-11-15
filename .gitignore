@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.cpython-*-pyc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.manifest
+wheelhouse/
+*.whl
+sdist/
+htmlcov/
+.tox/
+.venv
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Private credentials and environment variables
+.env
+.flaskenv
+*.key
+*.pem
+*.pfx

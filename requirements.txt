@@ -6,8 +6,6 @@ python-dotenv
 langchain-openai
 langchain-community
 
-faiss-cpu
-
 httpx
 supabase
 pydantic

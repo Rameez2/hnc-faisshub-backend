@@ -1,6 +1,6 @@
 fastapi
-gunicorn
-uvicorn[standard]
+mangum
+uvicorn
 python-dotenv
 
 langchain-openai
@@ -9,3 +9,5 @@ langchain-community
 httpx
 supabase
 pydantic
+
+python-multipart

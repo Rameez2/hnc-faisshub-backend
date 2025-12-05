@@ -1,53 +1,13 @@
-# This file lists all Python dependencies required to run the RAGBuilder API server.
-
-# It is used by the Dockerfile during the build process.
-
-# === Core Web Server and ASGI Stack ===
-
 fastapi
-
-# Gunicorn is the process manager, and uvicorn is the worker class.
-
 gunicorn
 uvicorn[standard]
-
-# === Environment and Configuration ===
-
-# Used by server.py to load environment variables from the .env file.
-
 python-dotenv
 
-# === RAG & LLM Frameworks ===
-
-# Core LangChain package for integrating with OpenAI models (ChatOpenAI, OpenAIEmbeddings).
-
 langchain-openai
-
-# Community integrations package (required for FAISS and common components like Document/TextSplitter).
-
 langchain-community
-
-# === Vector Store Dependencies ===
-
-# FAISS (Facebook AI Similarity Search) is used for local vector storage.
-
-# faiss-cpu is required for running on standard CPU environments (like in a Docker container).
 
 faiss-cpu
 
-# === Data & Database Clients ===
-
-# Asynchronous HTTP client, used for web/file downloads (e.g., in a route like create_embeddings).
-
 httpx
-
-# Client for interacting with the Supabase database.
-
 supabase
-
-# Example requirements.txt
-fastapi
 pydantic
-faiss-cpu # (or whatever specific faiss package you are using)
-uvicorn # (optional, but good practice)
-

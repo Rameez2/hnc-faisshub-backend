@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rag-builder-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn api.server:app -k uvicorn.workers.UvicornWorker -b 0.0.0.0:10000

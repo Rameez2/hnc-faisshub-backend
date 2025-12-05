@@ -1,0 +1,68 @@
+{
+  "store": {
+    "id": "store_001",
+    "name": "Epic Games Hub",
+    "location": {
+      "address": "123 Gamer St",
+      "city": "Gameville",
+      "state": "CA",
+      "country": "USA",
+      "zip": "90210",
+      "coordinates": {
+        "lat": 34.052235,
+        "lng": -118.243683
+      }
+    },
+    "contact": {
+      "phone": "+1-555-123-4567",
+      "email": "info@epicgameshub.com",
+      "website": "https://www.epicgameshub.com"
+    },
+    "hours": {
+      "mon_fri": "10:00-20:00",
+      "sat": "10:00-22:00",
+      "sun": "12:00-18:00"
+    },
+    "games": [
+      {
+        "id": "game_001",
+        "title": "CyberQuest",
+        "genre": ["Action", "RPG"],
+        "platforms": ["PC", "PS5", "Xbox Series X"],
+        "price": 59.99,
+        "discount_price": 49.99,
+        "release_date": "2024-09-15",
+        "rating": 4.7,
+        "reviews_count": 1200,
+        "trending": true,
+        "tags": ["sci-fi", "multiplayer", "open-world"]
+      },
+      {
+        "id": "game_002",
+        "title": "Pixel Racers",
+        "genre": ["Racing", "Arcade"],
+        "platforms": ["PC", "Switch"],
+        "price": 29.99,
+        "discount_price": null,
+        "release_date": "2023-11-10",
+        "rating": 4.3,
+        "reviews_count": 450,
+        "trending": false,
+        "tags": ["retro", "singleplayer", "multiplayer"]
+      }
+    ],
+    "trending_games": ["game_001"],
+    "categories": ["Action", "RPG", "Sports", "Racing", "Adventure", "Indie"],
+    "payment_methods": ["Credit Card", "PayPal", "Gift Card"],
+    "loyalty_program": {
+      "enabled": true,
+      "points_per_dollar": 1,
+      "membership_levels": ["Silver", "Gold", "Platinum"]
+    },
+    "social": {
+      "facebook": "https://facebook.com/epicgameshub",
+      "twitter": "https://twitter.com/epicgameshub",
+      "instagram": "https://instagram.com/epicgameshub"
+    }
+  }
+}

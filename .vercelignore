@@ -1,0 +1,6 @@
+# .vercelignore contents
+faiss_indexes/games.json/index.faiss
+faiss_indexes/games.json/index.pkl
+faiss_indexes/games.json.zip
+__pycache__/
+routes/__pycache__/

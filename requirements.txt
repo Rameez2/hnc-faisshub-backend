@@ -50,3 +50,4 @@ fastapi
 pydantic
 faiss-cpu # (or whatever specific faiss package you are using)
 uvicorn # (optional, but good practice)
+
